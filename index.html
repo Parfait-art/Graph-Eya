@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Site Web Animé - Version 2</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1 class="title">Bienvenue chez Grapheya</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#presentations" class="nav-link">Présentations</a></li>
+                <li><a href="#visions" class="nav-link">Visions</a></li>
+                <li><a href="#objectifs" class="nav-link">Objectifs</a></li>
+                <li><a href="#partenaires" class="nav-link">Partenaires</a></li>
+                <li><a href="#equipes" class="nav-link">Équipes</a></li>
+                <li><a href="#realisations" class="nav-link">Réalisations</a></li>
+                <li><a href="#contactez-nous" class="nav-link">Contactez-nous</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="section fade-in">
+            <h2>Accueil</h2>
+            <p>Bienvenue chez CréaGraph, votre partenaire de confiance pour des solutions graphiques innovantes et créatives. Nous transformons vos idées en visuels percutants qui captivent votre audience.</p>
+            <img src="https://via.placeholder.com/800x300?text=Accueil+Image" alt="Image Accueil" />
+        </section>
+
+        <section id="presentations" class="section slide-in">
+            <h2>Présentations</h2>
+            <p>Nous offrons des présentations visuelles dynamiques et professionnelles pour mettre en valeur vos projets, produits et services avec style et impact.</p>
+            <img src="https://via.placeholder.com/800x300?text=Présentation+Image" alt="Image Présentations" />
+        </section>
+
+        <section id="visions" class="section bounce">
+            <h2>Visions</h2>
+            <p>Notre vision est de repousser les limites du design graphique pour créer des expériences visuelles uniques qui inspirent et engagent.</p>
+            <img src="https://via.placeholder.com/800x300?text=Vision+Image" alt="Image Visions" />
+        </section>
+
+        <section id="objectifs" class="section fade-in">
+            <h2>Objectifs</h2>
+            <p>Atteindre l'excellence en design, satisfaire nos clients et contribuer à la réussite de leurs projets grâce à des solutions graphiques sur mesure.</p>
+            <img src="https://via.placeholder.com/800x300?text=Objectifs+Image" alt="Image Objectifs" />
+        </section>
+
+        <section id="partenaires" class="section slide-in">
+            <h2>Partenaires</h2>
+            <p>Nous collaborons avec des entreprises et des créateurs passionnés pour offrir des résultats exceptionnels et durables.</p>
+            <img src="https://via.placeholder.com/800x300?text=Partenaires+Image" alt="Image Partenaires" />
+        </section>
+
+        <section id="equipes" class="section bounce">
+            <h2>Équipes</h2>
+            <p>Une équipe talentueuse et dévouée, composée de designers, développeurs et stratèges, prête à relever tous les défis créatifs.</p>
+            <img src="https://via.placeholder.com/800x300?text=Équipes+Image" alt="Image Équipes" />
+        </section>
+
+        <section id="realisations" class="section fade-in">
+            <h2>Réalisations</h2>
+            <p>Découvrez nos projets récents qui témoignent de notre savoir-faire et de notre créativité au service de nos clients.</p>
+            <img src="https://via.placeholder.com/800x300?text=Réalisations+Image" alt="Image Réalisations" />
+        </section>
+
+        <section id="contactez-nous" class="section slide-in">
+            <h2>Contactez-nous</h2>
+            <p>Pour toute demande ou collaboration, n'hésitez pas à nous contacter. Nous sommes à votre écoute pour concrétiser vos projets.</p>
+            <img src="https://via.placeholder.com/800x300?text=Contactez+Nous+Image" alt="Image Contactez-nous" />
+        </section>
+
+        <!-- New Contact Form Section -->
+        <section id="contact-form" class="section fade-in">
+            <h2>Formulaire de Contact</h2>
+            <form id="contactForm">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+            <p id="formMessage" style="display:none; margin-top: 15px; color: green;">Merci pour votre message ! Nous vous contacterons bientôt.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Perfecto. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookieConsent" class="cookie-consent">
+        <p>Ce site utilise des cookies pour améliorer votre expérience. <button id="acceptCookies">Accepter</button></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
